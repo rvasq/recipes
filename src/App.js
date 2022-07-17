@@ -1,8 +1,13 @@
+import Nav from "./components/Nav"
+
 function App() {
   return (
-    <h5 className="text-2xl font-bold">
-      Hello World
-    </h5>
+    <>
+    <Nav />
+    <div className="bg-[#d1d7d7] w-full h-screen">
+      hello world
+    </div>
+    </>
   );
 }
 
